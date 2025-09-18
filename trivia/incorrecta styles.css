@@ -1,0 +1,27 @@
+body{
+    background-color: #A2FFCF
+}
+
+#burbujas1{
+    float: right; height: 660px; width: 450px
+}
+
+#burbujas2{
+    float: left; height: 660px; width: 450px
+}
+
+h1{
+    color: #039379; -webkit-text-stroke: 1px white;font-family: fantasy; font-size: 50px
+}
+
+p{
+    color: #039379;-webkit-text-stroke: 1px white;font-family: fantasy; font-size: 25px
+}
+
+#gif{
+    width: 40%
+}
+
+#boton{
+    width: 25%
+}

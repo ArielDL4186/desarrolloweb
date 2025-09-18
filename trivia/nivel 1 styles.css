@@ -1,0 +1,35 @@
+body{
+    background-color: #FA9500
+}
+
+#shenlong1{
+    float: left; transform: scaleX(-1);height: 665px; margin-left: 15px
+}
+
+#shenlong2{
+    float: right;height: 665px;margin-right: 15px
+}
+
+#section{
+    background-color: #FAD200; width: 50%; height: 665px
+}
+
+h1{
+    color: #3776A5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#esfera{
+    width: 50px; vertical-align: middle
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#raditz{
+    width: 350px; height: 550px; border-style: solid; border-color:#FA9500
+}
+
+#turles{
+    width: 350px;height: 550px;border-style: solid; border-color:#FA9500
+}
