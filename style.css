@@ -1,0 +1,24 @@
+
+body{
+    background-color:greenyellow;
+}
+
+p{
+    background-color: blue;
+}
+
+.mundo{
+    background-color: red;}
+
+#texto{
+    background-color: orange;
+}
+
+/* tipos de selectores
+tipo <body> <h1> <p>
+
+clase class="nombre" se usa .nombre
+
+selector id   id="nombre" se usa #nombre
+
+jerarquias tipo>clase>id>style*/
