@@ -3,11 +3,11 @@ body{
 }
 
 #numero{
-    list-style-position: inside; text-align: center; list-style-type: none; padding-right: 60px
+    list-style-position: inside; text-align: center; list-style-type: none; padding-right: 10px;
 }
 
 #email{
-    list-style-position: inside; list-style-type: none; padding-right: 60px
+    list-style-position: inside; list-style-type: none;
 }
 
 #volver{

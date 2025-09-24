@@ -22,6 +22,10 @@ body{
    float: right; width: 200px; height: 267px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;
 }
 
+#listasobremi{
+    padding-left: 10px;
+}
+
 #netflix{
     color:red; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
