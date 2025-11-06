@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(imgs/silver-textured-pebbles-background.jpg);
+        }
+
+        nav{
+            margin-top: 10px;
+        }
+
+        nav ul li{
+            list-style-type: none;
+            background-color: red;
+            width: 75%;
+            margin-bottom: 20px;
+            border-radius: 50px;
+            padding: 20px;
+            position: relative;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #identikit{
+            width: 50px;
+            position: absolute;
+            left: 25px;
+            /* vertical-align: middle; */
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+
+        }
+
+        #identikit:hover{
+            transform: scale(1.1);
+        }
+
+        #blog{
+            width: 50px;
+            position: absolute;
+            left: 25px;
+            /* vertical-align: middle; */
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+
+        }
+
+        #blog:hover{
+            transform: scale(1.1);
+        }
+
+        #tpf{
+            width: 45px;
+            position: absolute;
+            left: 25px;
+            /* vertical-align: middle; */
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+
+        }
+
+        #tpf:hover{
+            transform: scale(1.1);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <center style="margin-top: 50px;">
+        <div style="background-image: url(imgs/85a76e316db32be818cd1ec26f1aa5e9.png); background-size: cover; background-repeat: no-repeat; width: 40%; height: 100vh; border-radius: 50px;">
+            
+            <img src="imgs/gato.jpg" alt="perfil" style="border-radius: 100%; width: 140px; margin-top: 50px;">
+            <h1 style="margin: 5px; font-family: Allerta Stencil;">Ariel Di Leo</h1>
+            <p style="margin-bottom: 10px;">Estudiante de Desarrollo de Software</p>
+            <a href="https://www.instagram.com/arileo4186/"><img src="imgs/1200px-Instagram_icon.png" alt="" style="width: 30px; vertical-align: middle;"></a>
+
+            <nav>
+                <ul>
+                    <li><a href="identikit/index.html"><img src="imgs/identikit.png" alt="identikit" id="identikit">Identikit</a></li>
+                    <li><a href="blog/index.html"><img src="imgs/blog icon.png" alt="blog" id="blog">Blog</a></li>
+                    <li><a href="final/"><img src="imgs/Trabajo final.png" alt="blog" id="blog">TP Final</a></li>
+
+                </ul>
+            </nav>
+            
+        </div>
+
+
+
+    </center>
+</body>
+</html>
