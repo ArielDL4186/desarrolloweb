@@ -1,0 +1,35 @@
+body{
+    background-color:#FA9500
+}
+
+#shenlong1{
+    float: left; transform: scaleX(-1);height: 665px; width: 305px; margin-left: 0%
+}
+
+#shenlong2{
+    float: right;height: 665px; width: 305px; margin-right: 0%
+}
+
+#section{
+    background-color: #FAD200;width: 60%;height: 665px
+}
+
+h1{
+    color: #3776A5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#esfera{
+    vertical-align: middle; width:50px
+}
+
+#gif{
+    width: 90%
+}
+
+#boton{
+    width: 30%
+}
