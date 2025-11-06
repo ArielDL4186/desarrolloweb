@@ -1,0 +1,430 @@
+#header{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imgs/fondo\ header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+}
+
+#header h1{
+    text-align: center;
+    font-family: Oxanium;
+    font-size: 60px;
+    color: white;
+
+}
+
+#contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#aside{
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 0%;
+}
+
+#aside p{
+    font-family: Gugi;
+    font-size: 50px;
+    width: 80%;
+}
+
+#mainintro{
+    width: 40vw;
+}
+
+#mainintro p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Michroma;
+}
+
+#postps1{
+    display: flex;
+    margin-top: 50px;
+    border: dotted black;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+#postps1 aside{
+    width: 40vw;
+    height: 50%;
+    display: flex;
+
+}
+
+#postps1 aside img{
+    width: 90%;
+}
+
+#postps1 main{
+    width: 50vw;
+}
+
+#postps1 main h1{
+    font-family: gugi;
+    font-size: 35px;
+}
+
+#postps1 main p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Michroma;
+}
+
+#postps1 main p a{
+    background-color: #00377b;
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+
+#postps2{
+    display: flex;
+    margin-top: 50px;
+    border: dotted black;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+#postps2 aside{
+    width: 40vw;
+    display: flex;
+
+}
+
+#postps2 aside img{
+    width: 80%;
+}
+
+#postps2 main{
+    width: 50vw;
+}
+
+#postps2 main h1{
+    font-family: gugi;
+    font-size: 35px;
+}
+
+#postps2 main p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Michroma;
+}
+
+#postps2 main p a{
+    background-color: #00377b;
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+
+#postps3{
+    display: flex;
+    margin-top: 50px;
+    border: dotted black;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+#postps3 aside{
+    width: 40vw;
+    display: flex;
+
+}
+
+#postps3 aside img{
+    width: 90%;
+}
+
+#postps3 main{
+    width: 50vw;
+}
+
+#postps3 main h1{
+    font-family: gugi;
+    font-size: 35px;
+}
+
+#postps3 main p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Michroma;
+}
+
+#postps3 main p a{
+    background-color: #00377b;
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+#postps4{
+    display: flex;
+    margin-top: 50px;
+    border: dotted black;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+#postps4 aside{
+    width: 40vw;
+    display: flex;
+
+}
+
+#postps4 aside img{
+    width: 90%;
+}
+
+#postps4 main{
+    width: 50vw;
+}
+
+#postps4 main h1{
+    font-family: gugi;
+    font-size: 35px;
+}
+
+#postps4 main p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Michroma;
+}
+
+#postps4 main p a{
+    background-color: #00377b;
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+#postps5{
+    display: flex;
+    margin-top: 50px;
+    border: dotted black;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+#postps5 aside{
+    width: 40vw;
+    display: flex;
+
+}
+
+#postps5 aside img{
+    width: 90%;
+}
+
+#postps5 main{
+    width: 50vw;
+}
+
+#postps5 main h1{
+    font-family: gugi;
+    font-size: 35px;
+}
+
+#postps5 main p{
+    font-size: 25px;
+    text-align: justify;
+    font-family: Michroma;
+}
+
+#postps5 main p a{
+    background-color: #00377b;
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+#contenedor2{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#contenedor2 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+#contenedor2 ul li{
+    background-color: #00377b;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 250px;
+}
+
+#contenedor2 ul li img{
+    width: 220px;
+    height: 200px;
+}
+
+#contenedor2 ul li:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px){
+    #contenedor{
+        flex-direction: column;    
+    }
+
+    #aside{
+        width: 100vw;
+    }
+
+    #mainintro{
+        width: 90vw;
+    }
+
+
+
+    #postps1{
+        flex-direction: column;
+    }
+
+    #postps1 aside{
+        justify-content: center;
+        width: 100%;
+    }
+
+    #postps1 aside img{
+        width: 50%;
+    }
+
+    #postps1 main{
+        width: 90vw;
+    }
+
+
+
+    #postps2{
+        flex-direction: column;
+    }
+
+    #postps2 aside{
+        justify-content: center;
+        width: 100%;
+    }
+
+    #postps2 aside img{
+        width: 50%;
+    }
+
+    #postps2 main{
+        width: 90vw;
+    }
+
+
+
+    #postps3{
+        flex-direction: column;
+    }
+
+    #postps3 aside{
+        justify-content: center;
+        width: 100%;
+    }
+
+    #postps3 aside img{
+        width: 50%;
+    }
+
+    #postps3 main{
+        width: 90vw;
+    }
+
+
+
+
+    #postps4{
+        flex-direction: column;
+    }
+
+    #postps4 aside{
+        justify-content: center;
+        width: 100%;
+    }
+
+    #postps4 aside img{
+        width: 50%;
+    }
+
+    #postps4 main{
+        width: 90vw;
+    }
+
+
+
+
+    #postps5{
+        flex-direction: column;
+    }
+
+    #postps5 aside{
+        justify-content: center;
+        width: 100%;
+    }
+
+    #postps5 aside img{
+        width: 30%;
+    }
+
+    #postps5 main{
+        width: 90vw;
+    }
+
+    #postps5 main p{
+        font-size: 20px;
+    }
+
+
+
+    #contenedor2 ul{
+        flex-direction: column;
+    }
+
+    #contenedor2 ul li{
+        background-color: #00377b;
+        border-radius: 100px;
+        width: 90vw;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #contenedor2 ul li img{
+        padding: 5px;
+    }
+
+
+}

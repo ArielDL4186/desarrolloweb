@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscribite a mi blog</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        #form-container {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+            text-align: center;
+            font-family: Michroma;
+        }
+
+        form {
+            background-color: #00377b;
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            width: 80%;
+            max-width: 500px;
+        }
+
+        form label {
+            display: block;
+            text-align: left;
+            font-family: Gugi;
+            margin-top: 15px;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        form button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-family: Oxanium;
+            font-size: 18px;
+            background-color: white;
+            color: #00377b;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        form button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <nav>
+
+        <ul>
+            <a href="index.html"><img src="imgs/PSHome_Icon.svg.png" alt="" id="home"></a>
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="mailto:adileo@uade.edu.ar"><li>Contacto</li></a>
+            <a href="formulario.html"><li>Suscribite a mi blog</li></a>
+        </ul>
+
+    </nav>
+
+    <center>
+        <header id="header">
+            <h1>Suscribite a mi blog</h1>
+        </header>
+    </center>
+
+    <div id="form-container">
+        <form action="gracias.html" method="get">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+
+            <label for="email">Correo electronico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="consola">Consola favorita de PlayStation:</label>
+            <select id="consola" name="consola" required>
+                <option value="">Seleccioná una consola</option>
+                <option value="ps1">PlayStation 1</option>
+                <option value="ps2">PlayStation 2</option>
+                <option value="ps3">PlayStation 3</option>
+                <option value="ps4">PlayStation 4</option>
+                <option value="ps5">PlayStation 5</option>
+            </select>
+
+            <label for="comentario">Comentario (opcional):</label>
+            <textarea id="comentario" name="comentario" rows="4" placeholder="¿Por qué te gusta esa consola?"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer id="footer">
+        <div id="div1">
+            <p>Blog hecho por <br><br> Ariel Di Leo</p>
+        </div>
+
+        <div id="div2">
+            <p>
+                Contacto <br><br>
+                <a href="mailto:adileo@uade.edu.ar">adileo@uade.edu.ar</a>
+            </p>
+        </div>
+
+        <div id="div3">
+            <p>
+                Redes <br>
+                <a href="https://www.instagram.com/arileo4186/">
+                    <img src="imgs/ins.webp" alt="">
+                </a> 
+                <br><br>
+                <a href="#top" class="volver">Volver a arriba</a> 
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
