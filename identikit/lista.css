@@ -1,0 +1,19 @@
+body{
+    background-color: #F5C600
+}
+
+#numero{
+    list-style-position: inside; text-align: center; list-style-type: none; padding-right: 10px;
+}
+
+#email{
+    list-style-position: inside; list-style-type: none;
+}
+
+#volver{
+    border: #23c896 4px solid ; border-radius: 20px; font-size: 25px; padding: 3px; text-decoration: none; color: black; background-color: #ffff41
+}
+
+#section{
+    background-color: #ffff41; width: 50%; border: #23c896 5px solid; border-radius: 50px
+}

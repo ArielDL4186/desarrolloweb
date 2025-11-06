@@ -1,0 +1,124 @@
+body{
+    background-color: #004e00;
+}
+
+#center1{
+    background-color: #40804A
+}
+
+#table1{
+    width: 75%; text-align: center; background-color: white
+}
+
+#th1{
+    background-color: #FF3855; color: white; font-size: larger;
+}
+
+#td1{
+    width: 100px; background-color: #39FF62
+}
+
+#td2{
+    background-color: #39FF62
+}
+
+#td3{
+    background-color: #39FF62
+}
+
+#td4{
+    background-color: #39FF62
+}
+
+#td5{
+    background-color: #39FF62
+}
+
+#td6{
+    background-color: #AA5E69
+}
+
+#td7{
+    background-color: #AA5E69
+}
+
+#tr1{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#td8{
+    height: 100px
+}
+
+
+#center2{
+    background-color: #30BF48
+}
+
+#table2{
+    width: 50%; text-align: center; background-color: white
+}
+
+#th2{
+    background-color: #1f1f1f; color: #ffffff; font-size: larger
+}
+
+#td9{
+    background-color: #ff4f4f; width: 25%
+}
+
+#td10{
+    text-align: left; background-color: rgb(31, 31, 31)
+}
+
+#td10 img{
+    width: 75px; height: 106px
+}
+
+#td11{
+    background-color: orange
+}
+
+#td12{
+    text-align: left; background-color: rgb(31, 31, 31)
+}
+
+#td12 img{
+    width: 75px; height: 106px
+}
+
+#td13{
+    background-color: yellow
+}
+
+#td14{
+    text-align: left; background-color: rgb(31, 31, 31)
+}
+
+#td14 img{
+    width: 75px; height: 106px
+}
+
+#td15{
+    background-color: greenyellow
+}
+
+#td16{
+    text-align: left; background-color: rgb(31, 31, 31)
+}
+
+#td16 img{
+    width: 75px; height: 106px
+}
+
+#td17{
+    background-color: green
+}
+
+#td18{
+    text-align: left; background-color: rgb(31, 31, 31)
+}
+
+#td18 img{
+    width: 75px; height: 106px
+}

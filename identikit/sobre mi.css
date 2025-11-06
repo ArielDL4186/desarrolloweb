@@ -1,0 +1,115 @@
+body{
+    background-color: #377DA5
+}
+
+#section1{
+    background-color: #FA000B; width: 800px ; height: 400px; border-radius: 15px;
+}
+
+#acercademi{
+    text-align: center;color: white; font-size: 35px; margin: 0%
+}
+
+#section2{
+    background-color: white; height: 267px; width: 700px; border-radius: 15px; padding-left: 15px;
+}
+
+#p1{
+    width: 700px; text-align: left; font-family: 'Times New Roman', Times, serif; font-size: 20px; padding-top: 5px;
+}
+
+#yo{
+   float: right; width: 200px; height: 267px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;
+}
+
+#listasobremi{
+    padding-left: 10px;
+}
+
+#netflix{
+    color:red; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#tablas{
+    text-align: left
+}
+
+#trivia{
+    text-align: left
+}
+
+#lista{
+    text-align: left
+}
+
+#index{
+    text-align: left
+}
+
+#emoji{
+    vertical-align: middle; width: 30px
+}
+
+#section3{
+    background-color: #FA000B; width: 800px ; height: 300px; border-radius: 15px
+}
+
+#cancionfavorita{
+    text-align: center;color: white; font-size: 35px; margin: 0%
+}
+
+#section4{
+    background-color: white; height: 200px; width: 700px; border-radius: 15px; padding-left: 15px
+}
+
+#p2{
+    width: 700px; text-align: left; font-family: 'Times New Roman', Times, serif; font-size: 25px; padding-top: 5px;
+}
+
+#sandman{
+    float: right; width: 200px; height: 200px; border-top-right-radius: 15px; border-bottom-right-radius: 15px
+}
+
+#section5{
+    background-color: #FA000B; width: 800px ; height: 400px; border-radius: 15px
+}
+
+#seriefavorita{
+    text-align: center;color: white; font-size: 35px; margin: 0%
+}
+
+#section6{
+    background-color: white; height: 300px; width: 700px ; border-radius: 15px
+}
+
+#opm1{
+    float: left; width: 200px; height: 300px; border-top-left-radius: 15px; border-bottom-left-radius: 15px
+}
+
+#opm2{
+    float: right; width: 200px; height: 300px; border-top-right-radius: 15px; border-bottom-right-radius: 15px
+}
+
+#p3{
+    text-align: left; font-size: 20px; padding-top: 5px;
+}
+
+#onepunchman{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;-webkit-text-stroke: 0.3px black;color: red
+}
+
+#guitar1{
+    float: right; width: 15%; padding-right: 50px; padding-top: 50px
+}
+
+#guitar2{
+    float: left; width: 15%; padding-left: 50px; padding-top: 50px
+}
+
+#punch1{
+    float: left; width: 20%; padding-left: 25px; padding-top: 50px
+}
+
+#punch2{
+    float: right; width: 20%; padding-right: 25px; padding-top: 50px
+}

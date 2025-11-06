@@ -1,0 +1,56 @@
+body{
+    margin: 0%;text-align: center; background-color: #307A72
+}
+
+#section1{
+    background-color: #307A72
+}
+
+h1{
+    background-color: #FAC700; margin: 0%; font-size: xx-large
+}
+
+p{
+    color: white; margin:0%;font-size: large
+}
+
+#span1{
+    color: #00FBDD
+}
+
+#yo{
+    width: 250px
+}
+
+#blockquote{
+    font-size:x-large; font-style: oblique; background-color: #FAC700; margin: 0%
+}
+
+#section2{
+    text-align: center
+}
+
+#sobremi{
+    border: 10px #FAC700 solid; font-size: 25px; border-radius: 50px; background-color: #58807c; padding: 5px; text-decoration: none; color: #00FBDD;
+}
+
+#h3{
+    font-size: 40px; font-family:'Times New Roman', Times, serif ; color: #00FBDD;letter-spacing: 1px
+}
+
+#section3{
+    border-style: solid;border-color: #FAC700; border-width: 10px; margin: 0%
+}
+
+#mercalibre{
+    width: 100px
+}
+
+#apple{
+    width: 100px
+}
+
+#google{
+    width: 100px
+}
+
